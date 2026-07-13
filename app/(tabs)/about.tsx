@@ -1,10 +1,9 @@
-import { Text, View, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
 
 export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Debbie Mariz Gilhang</Text>
-      <Text style={styles.text}>BSIT BLOCK 3A</Text>
+      <Text style={styles.text}>About screen</Text>
     </View>
   );
 }
@@ -12,11 +11,11 @@ export default function AboutScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: "#a4b7b8",
+    justifyContent: "center",
+    alignItems: "center",
   },
   text: {
-    color: '#fff',
+    color: "#010000",
   },
 });
